@@ -22,7 +22,6 @@ export default function Login() {
 
       // Example: redirect after login
       router.push("/home");
-      alert("Logged in (demo)");
     } catch (err) {
       setError("Login failed. Please try again.");
     } finally {
